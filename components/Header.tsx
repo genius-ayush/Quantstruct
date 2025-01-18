@@ -10,8 +10,8 @@ import { Button } from './ui/button';
 function Header() {
   return (
     <>
-      <nav className='fixed z-50 w-full backdrop-blur-lg border'>
-        <div className='flex h-[72px] items-center justify-between w-full lg:px-20 px-2'>
+      <nav className='fixed z-50 w-full backdrop-blur-lg border '>
+        <div className='flex h-[72px] items-center justify-between w-full lg:px-40 px-2 '>
           <Link href="/"><CompanyLogo/></Link>
 
           <div className='flex items-center'>

@@ -89,7 +89,7 @@ export function HeroVideoDialog({
       alt={thumbnailAlt}
       width={1920}
       height={1080}
-      className="w-full rounded-md border shadow-lg transition-all duration-200 ease-out group-hover:brightness-[0.8]"
+      className="w-full rounded-lg border shadow-lg transition-all duration-200 ease-out group-hover:brightness-[0.8]"
     />
     {/* Gradient Overlay */}
     {/* <div className="absolute inset-0 bg-gradient-to-t from-[#b9a186] via-transparent to-transparent"></div> */}
