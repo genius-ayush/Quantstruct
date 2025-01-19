@@ -16,8 +16,8 @@ declare module 'framer-motion' {
 
 export default function Endnote() {
   return (
-    <section className="relative min-h-[60vh] py-24 px-4 overflow-hidden bg-gradient-to-b from-[#F3F1F1] to-white">
-      {/* Animated background elements */}
+    <section id="contact" className="relative min-h-[60vh] py-24 px-4 overflow-hidden bg-gradient-to-b from-[#F3F1F1] to-white">
+      
       <div className="absolute inset-0 overflow-hidden">
         {[...Array(3)].map((_, i) => (
           <motion.div
@@ -45,7 +45,7 @@ export default function Endnote() {
         ))}
       </div>
 
-      {/* Main content */}
+      
       <div className="relative max-w-4xl mx-auto text-center space-y-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -70,7 +70,7 @@ export default function Endnote() {
           </motion.p>
         </motion.div>
 
-        {/* Features */}
+        
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"
           initial={{ opacity: 0, y: 20 }}
@@ -94,7 +94,7 @@ export default function Endnote() {
           ))}
         </motion.div>
 
-        {/* CTA Button */}
+        
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
