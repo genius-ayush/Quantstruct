@@ -4,6 +4,8 @@ import React, { forwardRef, useRef } from "react";
 
 import { cn } from "@/lib/utils";
 import { AnimatedBeam } from "./ui/animatedBeam";
+import { CompanyLogo } from "./CompanyLogo";
+import Image from "next/image";
 
 const Circle = forwardRef<
   HTMLDivElement,
@@ -54,7 +56,12 @@ export function AnimatedBreamUse({
         </div>
         <div className="flex flex-col justify-center">
           <Circle ref={div6Ref} className="size-16">
-            <Icons.openai />
+          <Image
+        src={'/mainlogo.avif'}
+        alt="100xJobs logo"
+        width={100}
+        height={100}
+      />
           </Circle>
         </div>
         <div className="flex flex-col justify-center gap-2">

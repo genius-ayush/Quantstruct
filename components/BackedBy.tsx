@@ -2,21 +2,15 @@ import { ChevronRight } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { AnimatedGradientText } from "./ui/animatedGradientText";
+import { Button } from "./ui/button";
 
 
 export default  function BackedBy() {
   return (
-    <div className="z-10 flex  items-center justify-center mb-2">
-      <AnimatedGradientText>
-        <span
-          className={cn(
-            `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
-          )}
-        >
-          Backed By Ycombinator
-        </span>
-        <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
-      </AnimatedGradientText>
+    <div className="z-10 flex pt-16  items-center justify-center mb-2">
+      {/* <AnimatedGradientText className="px-4 py-2 text-lg font-bold">Backed by YCombinator</AnimatedGradientText> */}
+      <button className="bg-white text-orange-600 px-4 py-2 rounded-lg font-bold"> Backed by Y Combinator</button>
+      
     </div>
   );
 }
