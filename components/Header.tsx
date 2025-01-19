@@ -26,7 +26,7 @@ function Header() {
             <Link href="#about" onClick={() => scrollToSection("about")} ><ul className=' md:flex items-center gap-4 text-md lg:gap-6 hidden mx-4 hover:pointer hover:text-gray-700'>About</ul></Link>
             <Link  href="#features" onClick={() => scrollToSection("features")}><ul className=' md:flex items-center gap-4 text-md lg:gap-6 hidden mx-4 hover:pointer hover:text-gray-700'>Features</ul></Link>
             <Link href="#contact"onClick={() => scrollToSection("contact")}><ul className=' md:flex items-center gap-4 text-md lg:gap-6 hidden mx-4 hover:pointer hover:text-gray-700'>Contact Us </ul></Link>
-            <Link href="/signin" className="md:flex hidden"><Button>Signin</Button></Link>
+            <Link href="https://app.quantstruct.com/login" className="md:flex hidden"><Button>Signin</Button></Link>
 
           </div>
 

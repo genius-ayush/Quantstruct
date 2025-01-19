@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { HeroVideoDialog } from './ui/heroVideoDialog';
 import { Button } from './ui/button';
 import { BlurFade } from './ui/blurFade';
+import Link from 'next/link';
 
 function Hero() {
   return (
@@ -23,9 +24,11 @@ function Hero() {
 
       <BlurFade delay={0.25 * 3} className='flex justify-center z-40' inView>
       <div className="mt-6 md:mt-8 ">
+        <Link href={"https://app.quantstruct.com/login"}>
         <Button className="px-6 py-3 md:px-8 md:py-4 text-sm md:text-base hover:bg-gray-800 ">
           Signup
         </Button>
+        </Link>
       </div>
       </BlurFade>
 

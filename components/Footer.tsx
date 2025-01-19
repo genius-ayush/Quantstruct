@@ -11,17 +11,17 @@ export default function Footer() {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/company/quantstruct/",
     },
     {
       name: "X (Twitter)",
       icon: Twitter,
-      href: "https://x.com",
+      href: "https://x.com/quantstruct",
     },
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:contact@quantstruct.com",
+      href: "#",
     },
   ]
 
@@ -29,9 +29,7 @@ export default function Footer() {
     <footer className="relative bg-[#A88866] text-white">
       
       <div className="relative max-w-7xl mx-auto">
-        {/* Main footer content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 py-12">
-          {/* Company Info */}
           <div className="space-y-4">
             <motion.div
               initial={{ opacity: 0 }}
@@ -45,7 +43,6 @@ export default function Footer() {
             </motion.div>
           </div>
 
-          {/* Quick Links */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
             <ul className="space-y-2">
